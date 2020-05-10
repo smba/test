@@ -20,16 +20,10 @@
 | 675 | 2086185ed58f8ccb2da7cae8c711195513df0919 | merge                                                                                                                        |
 | 683 | 321c80f3822681d42e6ef0ec6d805a20fee1e659 | merge                                                                                                                        |
 #### XZ
-
-| id  | hex                                      | message                                                                                                                      |
-|-----|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| 521 | f792f72aa5086439c266433b39303c6377df909b | Use ffsl for a faster lesser_bitness function.                                                                               |
-| 529 | 5edf8471d1eedf29ad2e477653062b3b7ca33c9e | Perform all checksumming in a separate thread to speed up the hash search in the rzip phase.                                 |
-| 539 | f8d05b9a66fed0ab9fccc77fa2f99c476e4f8382 | Move zpaq compression to new libzpaq library back end.                                                                       |
-| 628 | f378595dcec9bd7fdba88ecfb9818112a2b0887e | Make match_len a function completely removing all indirect calls to get_sb, significantly speeding up the single_get_sb case |
-| 669 | 70bd5e9d3add335c67ea9535e6ea41af61edab3e | Allow less than maxram to be malloced for checksum to fix Failed to malloc ckbuf in hash_search2                             |
-| 675 | 2086185ed58f8ccb2da7cae8c711195513df0919 | merge                                                                                                                        |
-| 683 | 321c80f3822681d42e6ef0ec6d805a20fee1e659 | merge                                                                                                                        |
+| id  | hex                                      | message                                                                                                                                                                                                                                                                         |
+|-----|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 626 | 77fe5954cd3d10fb1837372684cbc133b56b6a87 | liblzma: Adjust default depth calculation for HC3 and HC4.      It was 8 + nice_len / 4, now it is 4 + nice_len / 4. This allows faster settings at lower nice_len values, even though it seems626 that I won't use automatic depth calcuation with HC3 and HC4 in the presets. |
+| 945 | 5db75054e900fa06ef5ade5f2c21dffdd5d16141 | liblzma: Use lzma_memcmplen() in the match finders.      This doesn't change the match finder output.                                                                                                                                                                           |
 
 #### OGGENC
 
