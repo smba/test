@@ -17,4 +17,7 @@ A small portion of experiments in our controlled setup did not terminate within 
 ![Precision of Terminating Experiments after Last Iteration](images/n_changepoints.png)
 ![Precision of Terminating Experiments after Last Iteration](images/p_interaction.png)
 
-## Relative Measurement Effort
+## Relative Measurement Effort (cf. Section 4.3.1)
+Last, we provide a visualization of the relative measurement effort for all terminating experiment runs. The relative measurement effort is defined as the ratio of measurements conducted to the possible number of measurements (number of commits times the number of valid configurationss). 
+
+![Precision of Terminating Experiments after Last Iteration](images/effort.png)
