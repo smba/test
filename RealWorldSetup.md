@@ -7,7 +7,7 @@
 ### Performance Measurements
 
 ### Manually Identified Change Points
-
+We have identified 7 change points for LRZIP and two for XZ and OGGENC, respectively. Below, we present the correpsonding commit id (see the .csv files for performance measurements), the commit hash, and the commit message.
 #### LRZIP
 
 | id  | hex                                      | message                                                                                                                      |
