@@ -3,7 +3,7 @@
 ### Subject Systems
 
 ### Benchmarks
-For LRZIP and XZ, we compressed the [Silesia Corpus](http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia), a collection of files of different kinds commonly used to assess different compression algorithms. For OGGENC, we encoded a …[WAVE audio file](https://commons.wikimedia.org/wiki/File:%22Going_Home%22,_performed_by_the_United_States_Air_Force_Band.wav) from the Wikimedia Commons collection to the .ogg format.
+For LRZIP and XZ, we compressed the [Silesia Corpus](http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia), a collection of files of different kinds commonly used to assess different compression algorithms. For OGGENC, we encoded a [WAVE audio file](https://commons.wikimedia.org/wiki/File:%22Going_Home%22,_performed_by_the_United_States_Air_Force_Band.wav) from the Wikimedia Commons collection to the .ogg format.
 
 ### Performance Measurements
 
