@@ -1,4 +1,7 @@
 ## Real-world Experimental Setup
+* LRZIP is a configurable file compression application. We selected 743 commits from its [Git repository](https://github.com/ckolivas/lrzip)'s master branch and sampled 79 configurations. 
+* XZ is a configurable file compression application. We selected 1193 commits from its [Git repository](https://git.tukaani.org/xz.git)'s master branch and sampled 161 configurations.
+* OGGENC is a audio codec for the .ogg standard of lossy audio compression. We selected 935 configurations from its [Git repository](https://github.com/xiph/vorbis-tools)'s master branch and sampled 152 configurations.
 
 ### Subject Systems
 
