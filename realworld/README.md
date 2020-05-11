@@ -1,9 +1,8 @@
 ## Real-world Experimental Setup
+### Subject Systems
 * LRZIP is a configurable file compression application. We selected 743 commits from its [Git repository](https://github.com/ckolivas/lrzip)'s master branch and sampled 79 configurations. 
 * XZ is a configurable file compression application. We selected 1193 commits from its [Git repository](https://git.tukaani.org/xz.git)'s master branch and sampled 161 configurations.
 * OGGENC is a audio codec for the .ogg standard of lossy audio compression. We selected 935 configurations from its [Git repository](https://github.com/xiph/vorbis-tools)'s master branch and sampled 152 configurations.
-
-### Subject Systems
 
 ### Benchmarks
 For LRZIP and XZ, we compressed the [Silesia Corpus](http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia), a collection of files of different kinds commonly used to assess different compression algorithms. For OGGENC, we encoded a [WAVE audio file](https://commons.wikimedia.org/wiki/File:%22Going_Home%22,_performed_by_the_United_States_Air_Force_Band.wav) from the Wikimedia Commons collection to the .ogg format.
