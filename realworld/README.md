@@ -9,6 +9,11 @@
 For LRZIP and XZ, we compressed the [Silesia Corpus](http://sun.aei.polsl.pl/~sdeor/index.php?page=silesia), a collection of files of different kinds commonly used to assess different compression algorithms. For OGGENC, we encoded a [WAVE audio file](https://commons.wikimedia.org/wiki/File:%22Going_Home%22,_performed_by_the_United_States_Air_Force_Band.wav) from the Wikimedia Commons collection to the .ogg format.
 
 ### Performance Measurements
+We provide the performance measurements for the three software systems in the subfolder ``data``. Missing values are either due to (partially) invalid configurations as the configuration interface of a software system evolves, or due to commits that fail to build. Below, you can find plots fo the performance histories of all configurations. We decided to use a log-scale on the y-axis since we employed a relative threshold (10%) to identify performance change.
+
+![Performance Histories for Configurations of LRZIP](images/lrzip.png)
+![Performance Histories for Configurations of XZ](images/xz.png)
+![Performance Histories for Configurations of OGGENC](images/oggenc.png)
 
 ### Manually Identified Change Points
 We have identified 7 change points for LRZIP and two for XZ and OGGENC, respectively. Below, we present the correpsonding commit id (see the .csv files for performance measurements), the commit hash, and the commit message.
